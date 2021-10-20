@@ -1,0 +1,62 @@
+body {
+    background: black;
+}
+
+section {
+    text-align: center;
+}
+
+.game--title {
+    font-size: 100px;
+    color: #1eff05;
+    margin: 10px auto;
+    font-family: 'Rancho', cursive;
+    text-shadow: 0 0 5px #f82d97, 0 0 15px #f82d97, 0 0 30px#f82d97, 0 0 50px#f82d97;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #a000a0;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    color: #15f4ee;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #1eff05;
+    border: 2px solid #000;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #c501e2;
+    margin: 20px auto;
+    font-family: "Dancing Script", cursive;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px#15f4ee, 0 0 15px #15f4ee, 0 0 30px#f82d97, 0 0 50px#f82d97;
+}
+
+.game--restart {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    background-color: #15f4ee;
+    border-radius: 6px;
+    border: 2px solid #1eff05;
+}
+
+.game--restart:hover {
+    color: #000;
+    background-color: #fe0ab7;
+}
